@@ -1,0 +1,25 @@
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12 d-flex justify-content-center my-5 pb-5">
+            <div class="content" role="main">
+                <div #canvas class="d-flex justify-content-center"></div>
+                <label class="mt-5 w-100">
+                    <div>
+                        <form [formGroup]="GetQrCode">
+                            <input type="text" id="url" name="url" formControlName="url" (keyup)="onKey($event)" value={{this.data}} class="bg-light form-control">
+                        </form>
+                    </div>
+                    <div class="mt-4 d-flex justify-content-between">
+                        <select (change)="onChange($event)" value={{this.extension}}  class="select-qr">
+                            <!-- <option class="option-qr" value="svg">SVG</option> -->
+                            <option class="option-qr" value="png">PNG</option>
+                            <option class="option-qr" value="jpeg">JPEG</option>
+                            <option class="option-qr" value="webp">WEBP</option>
+                          </select>
+                        <button (click)="postQrCodes()" class="btn btn-primary">Download</button>
+                    </div>
+                </label>
+            </div>
+        </div>
+    </div>
+</div>

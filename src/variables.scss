@@ -1,0 +1,21 @@
+:root {
+  --primary-color: #252dff !important;
+  --secondary-color-light: #252dff;
+  --secondary-color: #071333 !important;
+  --grey-color: #c3c8c9 !important;
+  --grey-color-link: #787d7e;
+  --light-color: #f0f2f3;
+  --btn-primary: #252dff !important;
+  --btn-secondary: #071333 !important;
+}
+
+$theme-colors: (
+  "primary": #252dff,
+  "secondary-light": #252dff,
+  "secondary": #071333,
+  "grey": #c3c8c9,
+  "grey-link": #787d7e,
+  "grey-light": #a0a5a6,
+  "light": #ebedf0,
+  "white": #ffff,
+);
