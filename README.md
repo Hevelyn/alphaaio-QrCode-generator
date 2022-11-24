@@ -1,27 +1,38 @@
-# AlphaaioQrCodeGenerator
+<h1 align="center">:file_cabinet: Alphaaio QR Code Generator</h1>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.0.
+## :memo: Descrição
+Este projeto foi gerado com Angular Cli versão 14.1.0
 
-## Development server
+## :books: Funcionalidades
+* Gerar QR Codes de diversas url's
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## :wrench: Tecnologias utilizadas
+* Angular+2
+* TypeScript
+* SCSS
+* Nodejs
+* Express
 
-## Code scaffolding
+## :rocket: Rodando o projeto
+Para rodar o repositório é necessário clonar o mesmo, dar o seguinte comando para iniciar o projeto:
+```
+<npm i>
+<ng serve>
+```
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## :handshake: Colaboradores
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/hevelyn">
+        <img src="https://avatars.githubusercontent.com/u/66382394?v=4" width="100px;" alt="Foto de Hevelyn Vieira no GitHub"/><br>
+        <sub>
+          <b>Hevelyn</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## :dart: Status do projeto
+* Concluído com sucesso!
